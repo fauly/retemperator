@@ -1,0 +1,16 @@
+# defaults.txt
+
+# Device & API settings
+deviceid=unsetDevice
+erpurl=http://192.168.1.156/api/method/log_temperature
+lowurl=http://192.168.1.156/api/method/notify_low_battery
+
+# Reporting & sleep interval (minutes)
+interval=30
+
+# Battery low-voltage threshold (volts)
+lowthresh=3.3
+
+# OTA firmware & version files (raw GitHub URLs)
+fwurl=https://raw.githubusercontent.com/fauly/retemperator/refs/heads/main/firmware.bin
+verurl=https://raw.githubusercontent.com/fauly/retemperator/refs/heads/main/version.txt
